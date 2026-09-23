@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.abhaymettu/bodylog",
+  "title": "bodylog",
+  "description": "Agent-first workout and food log: sets and meals from chat, USDA and Open Food Facts macros, cards.",
+  "repository": {
+    "url": "https://github.com/abhaymettu/bodylog",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "bodylog",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "name": "BODYLOG_DB",
+          "description": "SQLite file for the log (default ~/.bodylog/log.db)",
+          "isRequired": false,
+          "format": "string"
+        },
+        {
+          "name": "BODYLOG_CARDS",
+          "description": "Directory for rendered card PNGs (default ~/.bodylog/cards)",
+          "isRequired": false,
+          "format": "string"
+        },
+        {
+          "name": "FDC_API_KEY",
+          "description": "USDA FoodData Central API key (free at api.data.gov); DEMO_KEY is used without one",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "BODYLOG_OFFLINE",
+          "description": "Set to 1 to use only the bundled USDA table, no network lookups",
+          "isRequired": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

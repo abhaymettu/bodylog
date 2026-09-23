@@ -1,0 +1,61 @@
+{
+ "hits": [
+  {
+   "code": "3728732512161",
+   "product_name": "Clif Bar - Chocolate chip",
+   "nutriments": {}
+  },
+  {
+   "code": "0722252068484",
+   "brands": [
+    "Clif Bar"
+   ],
+   "nutriments": {
+    "carbohydrates_100g": 63.2,
+    "energy-kcal_100g": 368,
+    "fat_100g": 8.82,
+    "proteins_100g": 14.7
+   },
+   "product_name": "Clif Bar Chocolate Chip"
+  },
+  {
+   "code": "0001281200315",
+   "brands": [
+    "Clif"
+   ],
+   "nutriments": {
+    "carbohydrates_100g": 18,
+    "energy-kcal_100g": 100,
+    "fat_100g": 2.5,
+    "proteins_100g": 4
+   },
+   "product_name": "Mini clif bar -chocolate chip"
+  },
+  {
+   "code": "1281200315",
+   "brands": [
+    "Clif"
+   ],
+   "nutriments": {
+    "energy-kcal_100g": 100,
+    "carbohydrates_100g": 18,
+    "proteins_100g": 4,
+    "fat_100g": 2.5
+   },
+   "product_name": "Mini clif bar -chocolate chip"
+  },
+  {
+   "code": "0351952412008",
+   "nutriments": {
+    "proteins_100g": 16.176470588235293,
+    "carbohydrates_100g": 58.8235294117647,
+    "energy-kcal_100g": 382.35294117647055,
+    "fat_100g": 11.76470588235294
+   },
+   "product_name": "Bar clif - Clif"
+  }
+ ],
+ "count": 10000,
+ "page": 1,
+ "page_size": 5
+}

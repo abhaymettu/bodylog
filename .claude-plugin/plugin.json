@@ -1,0 +1,17 @@
+{
+  "name": "bodylog",
+  "description": "Log workouts and food by chatting with Claude: sets, meals, macros from USDA and Open Food Facts, streaks and shareable cards.",
+  "version": "0.1.0",
+  "author": { "name": "Abhay Mettu" },
+  "homepage": "https://github.com/abhaymettu/bodylog",
+  "repository": "https://github.com/abhaymettu/bodylog",
+  "license": "MIT",
+  "keywords": ["workout", "fitness", "calorie-tracker", "nutrition", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": {
+    "bodylog": {
+      "command": "uvx",
+      "args": ["--from", "bodylog", "bodylog-mcp"]
+    }
+  }
+}

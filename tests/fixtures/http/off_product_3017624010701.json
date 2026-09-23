@@ -1,0 +1,36 @@
+{
+ "code": "3017624010701",
+ "product": {
+  "brands": "Ferrero",
+  "code": "3017624010701",
+  "nutriments": {
+   "carbohydrates": 57.5,
+   "carbohydrates_100g": 57.5,
+   "carbohydrates_unit": "g",
+   "carbohydrates_value": 57.5,
+   "energy-kcal": 539,
+   "energy-kcal_100g": 539,
+   "energy-kcal_unit": "kcal",
+   "energy-kcal_value": 539,
+   "energy-kj": 2227.9,
+   "energy-kj_100g": 2227.9,
+   "energy-kj_modifier": "~",
+   "energy-kj_unit": "kJ",
+   "energy-kj_value": 2227.9,
+   "fat": 30.9,
+   "fat_100g": 30.9,
+   "fat_unit": "g",
+   "fat_value": 30.9,
+   "proteins": 6.3,
+   "proteins_100g": 6.3,
+   "proteins_unit": "g",
+   "proteins_value": 6.3
+  },
+  "nutrition_data": "on",
+  "nutrition_data_per": "100g",
+  "nutrition_data_prepared_per": "100g",
+  "product_name": "Nutella"
+ },
+ "status": 1,
+ "status_verbose": "product found"
+}

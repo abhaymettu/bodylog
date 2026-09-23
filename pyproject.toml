@@ -1,0 +1,55 @@
+[project]
+name = "bodylog"
+version = "0.1.0"
+description = "Agent-first workout and food log: tell your agent sets and meals in chat, get totals, streaks and shareable cards. MCP server, CLI and Claude skill."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Abhay Mettu" }]
+keywords = ["mcp", "mcp-server", "claude-skill", "agent", "workout", "fitness", "strength-training",
+            "calorie-tracker", "nutrition", "macros", "food-log", "open-food-facts", "usda"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Utilities",
+]
+dependencies = ["pillow>=10.1", "mcp>=2.2"]
+
+[project.optional-dependencies]
+mcp = []  # kept so `bodylog[mcp]` from older instructions still resolves; mcp is a core dependency now
+
+[project.urls]
+Homepage = "https://github.com/abhaymettu/bodylog"
+Repository = "https://github.com/abhaymettu/bodylog"
+Issues = "https://github.com/abhaymettu/bodylog/issues"
+
+[project.scripts]
+bodylog = "bodylog.cli:main"
+bodylog-mcp = "bodylog.server:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "mcp>=2.2"]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bodylog"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "skills", "examples/*.png", "README.md", "LICENSE", "server.json", "scripts"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

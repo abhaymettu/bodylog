@@ -1,0 +1,17 @@
+# Mixed units in one session: barbell in kg, dumbbells and machines in lb.
+[2026-09-16 07:00] Abhay: upper
+[2026-09-16 07:02] Abhay: overhead press 40 kg x 8
+[2026-09-16 07:10] Abhay: dumbbell row 60 lb x 10
+[2026-09-16 07:40] Abhay: done 40 min
+
+[2026-09-23 07:00] Abhay: upper
+[2026-09-23 07:02] Abhay: overhead press 20 kg x 10 warmup
+[2026-09-23 07:05] Abhay: 42.5 kg x 8
+[2026-09-23 07:08] Abhay: 42.5 kg x 7
+[2026-09-23 07:14] Abhay: dumbbell row 65 lb x 10
+[2026-09-23 07:17] Abhay: 65 lb x 10
+[2026-09-23 07:22] Abhay: incline dumbbell curls 30 lb x 10
+[2026-09-23 07:25] Abhay: 30 lb x 8 to failure
+[2026-09-23 07:30] Abhay: cable pushdown 25 kg x 12
+[2026-09-23 07:33] Abhay: 50 lb x 12
+[2026-09-23 07:45] Abhay: done 45 min

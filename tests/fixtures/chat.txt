@@ -1,0 +1,54 @@
+# A pasted chat between a lifter and their agent, four sessions over two weeks.
+# kg and lb are mixed on purpose. Agent replies are in the log and get skipped.
+[2026-09-08 18:02] Abhay: push day
+[2026-09-08 18:04] Abhay: bench 20kg x 10 warmup
+[2026-09-08 18:07] Abhay: 60kg x 8
+[2026-09-08 18:10] Abhay: 60kg x 8
+[2026-09-08 18:13] Abhay: 62.5kg x 6
+[2026-09-08 18:14] Agent: Logged Bench Press, 62.5 kg x 6.
+[2026-09-08 18:20] Abhay: now incline db press 50 lb x 10
+[2026-09-08 18:23] Abhay: same
+[2026-09-08 18:26] Abhay: 50lbs for 9
+[2026-09-08 18:33] Abhay: 10.2 kg x 15 reps
+[2026-09-08 18:35] Abhay: 10.2 kg x 12
+[2026-09-08 18:36] Abhay: this is tricep cable pushdowns btw
+[2026-09-08 18:45] Abhay: lateral raises 15lb x 12, 15lb x 12, 15lb x 10
+[2026-09-08 19:04] Abhay: done, 1h 5m
+
+[2026-09-10 07:15] Abhay: pull day
+[2026-09-10 07:18] Abhay: lat pulldown 100 lb x 12
+[2026-09-10 07:21] Abhay: 110 lb x 10
+[2026-09-10 07:24] Abhay: 110lb x 9 rpe 9
+[2026-09-10 07:30] Abhay: seated cable row 3x10 @ 90lb
+[2026-09-10 07:42] Abhay: incline dumbbell curls 25 lb x 10
+[2026-09-10 07:45] Abhay: 25 lb x 8 to failure
+[2026-09-10 07:46] Abhay: ugh forearms are fried
+[2026-09-10 07:47] Agent: Nice work. Want me to end the session?
+[2026-09-10 07:58] Abhay: finished, took 45 min
+
+[2026-09-15 18:10] Abhay: push day
+[2026-09-15 18:12] Abhay: Bench Press 60 kg x 8
+[2026-09-15 18:15] Abhay: 62.5 kg x 7
+[2026-09-15 18:19] Abhay: 65 kg x 5
+[2026-09-15 18:25] Abhay: incline dumbbell press 55 lb x 8
+[2026-09-15 18:28] Abhay: 55 lb x 8
+[2026-09-15 18:36] Abhay: cable pushdown 11.3 kg x 12
+[2026-09-15 18:39] Abhay: 11.3kg x 12, then 9 kg x 15 drop set
+[2026-09-15 19:02] Abhay: done 55 min
+
+[2026-09-17 18:05] Abhay: push day
+[2026-09-17 18:06] Abhay: bench 20 kg x 10 warm up
+[2026-09-17 18:09] Abhay: 60kg x 10
+[2026-09-17 18:13] Abhay: 67.5 kg x 4
+[2026-09-17 18:17] Abhay: 62.5 kg x 8 rpe 9
+[2026-09-17 18:25] Abhay: next incline db press 55 lb x 10
+[2026-09-17 18:28] Abhay: same
+[2026-09-17 18:31] Abhay: 55lb x 9
+[2026-09-17 18:38] Abhay: 12.5 kg x 12
+[2026-09-17 18:40] Abhay: that was triceps pushdowns on the cable
+[2026-09-17 18:42] Abhay: 12.5 kg x 11
+[2026-09-17 18:43] Agent: Logged Triceps Cable Pushdown, 12.5 kg x 11.
+[2026-09-17 18:50] Abhay: lateral raise 15 lb x 14
+[2026-09-17 18:53] Abhay: 15 lb x 12
+[2026-09-17 18:54] Abhay: one more
+[2026-09-17 19:08] Abhay: wrapped up, workout took 1h 3m
